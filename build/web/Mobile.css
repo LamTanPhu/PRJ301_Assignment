@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+     background-color: #ADD8E6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.2em; /* Smaller font size */
+    text-align: left;
+    padding: 20px;
+}
+
+form[action="MobileSearchController"] {
+    position: absolute;
+    top: 60px; /* Moved down a bit */
+    right: 40px; /* Moved inside a bit */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%; /* Smaller width */
+    max-width: 500px;
+}
+
+form[action="MobileSearchController"] input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+form[action="MobileSearchController"] input[type="submit"] {
+    width: 15%; /* Bigger button */
+    padding: 10px; /* Bigger button */
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    border: none;
+}
+
+form[action="mobile.jsp"] {
+    position: absolute;
+    top: 90px; /* Moved down a bit */
+    left: 20px;
+}
+
+form[action="mobile.jsp"] input[type="submit"] {
+    padding: 15px 20px; /* Bigger button */
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold; /* Bold font */
+    font-size: 1.2em; /* Bigger font size */
+}
+
+table {
+    width: 90%;
+    margin: 130px auto 20px auto; /* Moved down a bit */
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Clearer border */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em; /* Smaller font size */
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    font-size: 1.1em; /* Bigger font size */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #f00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form[action="MobileAddController"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border: 2px solid #333;
+}
+
+form[action="MobileAddController"] .left, form[action="MobileAddController"] .right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+form[action="MobileAddController"] input[type="text"], 
+form[action="MobileAddController"] input[type="number"], 
+form[action="MobileAddController"] input[type="checkbox"] {
+    display: block;
+    margin: 10px 0;
+    padding: 5px; /* Smaller padding */
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+form[action="MobileAddController"] input[type="submit"] {
+    width: 100%;
+    padding: 10px; /* Bigger button */
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold; /* Bold font */
+    font-size: 1.2em; /* Bigger font size */
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 75px; /* Adjust this value as needed */
+    font-size: 1.2em; /* Adjust this value to make the font bigger */
+    margin-left: 20px;
+}
